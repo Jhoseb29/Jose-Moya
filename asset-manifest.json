@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portafolio-V3/static/css/main.e01e81c7.css",
-    "main.js": "/Portafolio-V3/static/js/main.ff3e5b3e.js",
+    "main.js": "/Portafolio-V3/static/js/main.31382bf9.js",
     "static/media/apiclima.png": "/Portafolio-V3/static/media/apiclima.50753e8b855560b996a1.png",
     "static/media/rickandmorty.png": "/Portafolio-V3/static/media/rickandmorty.c4eb902d72cef3b05c64.png",
     "static/media/crud.png": "/Portafolio-V3/static/media/crud.c334e562ad8c03d238e5.png",
@@ -19,10 +19,10 @@
     "static/media/javascript.png": "/Portafolio-V3/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/Portafolio-V3/index.html",
     "main.e01e81c7.css.map": "/Portafolio-V3/static/css/main.e01e81c7.css.map",
-    "main.ff3e5b3e.js.map": "/Portafolio-V3/static/js/main.ff3e5b3e.js.map"
+    "main.31382bf9.js.map": "/Portafolio-V3/static/js/main.31382bf9.js.map"
   },
   "entrypoints": [
     "static/css/main.e01e81c7.css",
-    "static/js/main.ff3e5b3e.js"
+    "static/js/main.31382bf9.js"
   ]
 }
