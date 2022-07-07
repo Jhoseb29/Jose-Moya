@@ -53,7 +53,8 @@ const Home = () => {
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
            <div>
-                <h1 className= "text-4xl sm:text-7xl font-bold text-white ">{`Hi! I'm Jose Moya`} <span className="txt-rotate" data-period="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer"]'><span className="wrap">{text}</span></span></h1>
+                <h1 className= "text-4xl sm:text-7xl font-bold text-white ">{`Hi! I'm 
+                Jose Moya`} <span className="txt-rotate" data-period="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer"]'><span className="wrap">{text}</span></span></h1>
                   <p className="text-gray-500 py-4 max-w-md">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
               </div>
           <div>
