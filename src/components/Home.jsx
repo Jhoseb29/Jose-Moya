@@ -2,7 +2,6 @@ import React from "react";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 import { useState, useEffect } from "react";
-import TrackVisibility from "react-on-screen";
 import 'animate.css'
 import IMG from "../assets/profile.jpeg";
 const Home = () => {
@@ -11,7 +10,7 @@ const Home = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(50);
   const [index, setIndex] = useState();
-  const toRotate = [ "Web Developer", "Developer Front-end", "Developer Back-end" ];
+  const toRotate = [ "Web Developer", "Front-end Developer", "Back-end Developer" ];
   const period = 1000;
 
   const tick = () => {
