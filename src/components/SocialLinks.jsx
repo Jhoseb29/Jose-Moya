@@ -2,12 +2,10 @@ import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import CV from "../assets/CV.pdf";
-import {useTheme} from "../context/ThemeProvider";
 
 
 const SocialLinks = () => {
 
-  const { theme, toggleTheme } = useTheme();
 
   const links = [
     {
@@ -43,7 +41,7 @@ const SocialLinks = () => {
   ];
 
   return (
-    <div className="hidden lg:flex flex-col top-[35%] left-0 fixed"  style={{ backgroundColor: theme.background, color: theme.textColor }}>
+    <div className="hidden lg:flex flex-col top-[35%] left-0 fixed">
       <ul>
         {links.map(({ id, child, href, style, download}) => (
           <li
