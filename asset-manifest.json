@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Jose-Moya/static/css/main.5a7f1389.css",
-    "main.js": "/Jose-Moya/static/js/main.74f76865.js",
+    "main.css": "/Jose-Moya/static/css/main.0f9e3e2d.css",
+    "main.js": "/Jose-Moya/static/js/main.3d7ac0a5.js",
     "static/media/apiclima.png": "/Jose-Moya/static/media/apiclima.50753e8b855560b996a1.png",
     "static/media/rickandmorty.png": "/Jose-Moya/static/media/rickandmorty.c4eb902d72cef3b05c64.png",
     "static/media/crud.png": "/Jose-Moya/static/media/crud.c334e562ad8c03d238e5.png",
@@ -17,11 +17,11 @@
     "static/media/css.png": "/Jose-Moya/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/Jose-Moya/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/Jose-Moya/index.html",
-    "main.5a7f1389.css.map": "/Jose-Moya/static/css/main.5a7f1389.css.map",
-    "main.74f76865.js.map": "/Jose-Moya/static/js/main.74f76865.js.map"
+    "main.0f9e3e2d.css.map": "/Jose-Moya/static/css/main.0f9e3e2d.css.map",
+    "main.3d7ac0a5.js.map": "/Jose-Moya/static/js/main.3d7ac0a5.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a7f1389.css",
-    "static/js/main.74f76865.js"
+    "static/css/main.0f9e3e2d.css",
+    "static/js/main.3d7ac0a5.js"
   ]
 }
