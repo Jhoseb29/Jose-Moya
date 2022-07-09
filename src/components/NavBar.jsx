@@ -38,7 +38,7 @@ const NavBar = () => {
   return (
     <div className="flex justify-between items-center relative w-full h-20 px-4 " style={{ backgroundColor: theme.background, color: theme.textColor }}>
       <div onClick={() => toggleTheme(!setMode)} className="fixed right-4 top-8 cursor-pointer pr-4 z-10  hover:scale-105 duration-200">
-          {mode ? <BsSun /> : <BsMoonStarsFill />}
+           <BsMoonStarsFill />
         </div>
 
 

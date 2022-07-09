@@ -9,7 +9,7 @@ import { useState } from "react";
 import Loader from "./components/loader/loader";
 import { useEffect } from "react";
 import ThemeProvider from "./context/ThemeProvider";
-
+import Footer from "./components/footer/Footer"
 
 function App() {
   
@@ -38,7 +38,7 @@ function App() {
         <Skills />
         <Contact />
         <SocialLinks />
-       
+        <Footer />
       </div>
       )}
       
