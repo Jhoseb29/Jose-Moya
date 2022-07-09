@@ -2,9 +2,8 @@ import React from "react";
 import { useTheme } from "../../context/ThemeProvider";
 import "./footer.css";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { BsFillPersonLinesFill } from "react-icons/bs";
 const Footer = () => {
-  const { theme, toggleTheme } = useTheme();
+  const { theme } = useTheme();
 
   return (
     <div
@@ -20,13 +19,13 @@ const Footer = () => {
         </div>
         <ul className="social_icon">
           <li>
-            <a href="https://www.linkedin.com/in/jhoseb29/">
+            <a href="https://github.com/Jhoseb29">
               
               <FaGithub />
             </a>
           </li>
           <li>
-            <a href="https://github.com/Jhoseb29">
+            <a href="https://www.linkedin.com/in/jhoseb29/">
               
               <FaLinkedin />
             </a>

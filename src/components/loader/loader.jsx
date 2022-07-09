@@ -5,6 +5,10 @@ const loader = () => {
     <div className="loading">
       <div className="loader">
         <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <h3>Loading...</h3>
       </div>
     </div>
   );

@@ -10,6 +10,7 @@ import Loader from "./components/loader/loader";
 import { useEffect } from "react";
 import ThemeProvider from "./context/ThemeProvider";
 import Footer from "./components/footer/Footer"
+import AnimCursor from "./components/animatedCursor/AnimCursor";
 
 function App() {
   
@@ -20,18 +21,19 @@ function App() {
     setIsLoading(true)
     setTimeout(() => {
       setIsLoading(false)
-    } , 2000);
+    } , 8000);
   },[])
 
   return (
     
-      
+    <>
+    
     <ThemeProvider>
     <div>
       {isLoading ? (<Loader />) : (
       <div>
+        <AnimCursor />
         <NavBar />
-        
         <Home />
         <About />
         <Portfolio />
@@ -44,7 +46,7 @@ function App() {
       
     </div>
     </ThemeProvider>
-    
+    </>
     
   );
 }
