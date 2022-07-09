@@ -1,10 +1,16 @@
 import React from "react";
+import {useTheme} from "../context/ThemeProvider";
+
 
 const Contact = () => {
+
+  const { theme, toggleTheme } = useTheme();
+
   return (
     <div
       name="contact"
-      className="w-full h-screen bg-gradient-to-b from-black to-gray-800 p-4 text-white"
+      className="w-full h-screen  p-4"
+      style={{ backgroundColor: theme.background, color: theme.textColor }}
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="pb-8">
@@ -21,22 +27,25 @@ const Contact = () => {
             className=" flex flex-col w-full md:w-1/2"
           >
             <input
+              required
               type="text"
               name="name"
               placeholder="Enter your name"
-              className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+              className="p-2 border-2 border-black bg-transparent rounded-md text-black "
             />
             <input
+              required
               type="text"
               name="email"
               placeholder="Enter your email"
-              className="my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+              className="my-4 p-2 border-2 border-black bg-transparent rounded-md text-black"
             />
             <textarea
+              required
               name="message"
               placeholder="Enter your message"
               rows="10"
-              className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+              className="p-2 border-2 border-black bg-transparent rounded-md text-black"
             ></textarea>
 
             <button className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">

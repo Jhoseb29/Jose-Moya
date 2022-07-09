@@ -4,14 +4,18 @@ import { Link } from "react-scroll";
 import { useState, useEffect } from "react";
 import 'animate.css'
 import IMG from "../assets/profile.jpeg";
+import {useTheme} from "../context/ThemeProvider";
 const Home = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState('');
-  const [delta, setDelta] = useState(50);
+  const [delta, setDelta] = useState();
   const [index, setIndex] = useState();
   const toRotate = [ "Web Developer", "Front-end Developer", "Back-end Developer" ];
   const period = 1000;
+  const { theme, toggleTheme } = useTheme();
+
+  
 
   const tick = () => {
     let i = loopNum % toRotate.length;
@@ -21,7 +25,7 @@ const Home = () => {
     setText(updatedText);
 
     if (isDeleting) {
-      setDelta(prevDelta => prevDelta / 1.4);
+      setDelta(prevDelta => prevDelta / 3);
     }
 
     if (!isDeleting && updatedText === fullText) {
@@ -48,12 +52,13 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
+      className="h-screen w-full"
+      style={{ backgroundColor: theme.background, color: theme.textColor }}
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
            <div>
-                <h1 className= "text-4xl sm:text-7xl font-bold text-white ">{`Hi! I'm 
+                <h1 className= "text-4xl sm:text-7xl font-bold ">{`Hi! I'm 
                 Jose Moya`} <span className="txt-rotate" data-period="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer"]'><span className="wrap">{text}</span></span></h1>
                   <p className="text-gray-500 py-4 max-w-md">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
               </div>

@@ -7,10 +7,14 @@ import sequelize from "../assets/sequelize.png";
 import python from "../assets/python.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
-import github from "../assets/github.png";
+import github from "../assets/github1.png";
 import tailwind from "../assets/tailwind.png";
+import {useTheme} from "../context/ThemeProvider";
+
 
 const Skills = () => {
+  const { theme, toggleTheme } = useTheme();
+
   const techs = [
     {
       id: 1,
@@ -58,22 +62,23 @@ const Skills = () => {
       id: 8,
       src: github,
       title: "GitHub",
-      style: "shadow-gray-400",
+      style: "shadow-blue-400",
     },
     {
       id: 9,
       src: python,
       title: "Python",
-      style: "shadow-yellow-200",
+      style: "shadow-yellow-300",
     }
   ];
 
   return (
     <div
       name="skills"
-      className="bg-gradient-to-b from-gray-800 to-black w-full  pt-36"
+      className="w-full  pt-36"
+      style={{ backgroundColor: theme.azul, color: theme.hehe }}
     >
-      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white ">
+      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full ">
         <div>
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
             Skills
