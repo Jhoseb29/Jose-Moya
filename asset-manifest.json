@@ -1,28 +1,27 @@
 {
   "files": {
-    "main.css": "/Jose-Moya/static/css/main.90a45310.css",
-    "main.js": "/Jose-Moya/static/js/main.0f835f62.js",
+    "main.css": "/Jose-Moya/static/css/main.5a7f1389.css",
+    "main.js": "/Jose-Moya/static/js/main.0058d563.js",
     "static/media/apiclima.png": "/Jose-Moya/static/media/apiclima.50753e8b855560b996a1.png",
     "static/media/rickandmorty.png": "/Jose-Moya/static/media/rickandmorty.c4eb902d72cef3b05c64.png",
     "static/media/crud.png": "/Jose-Moya/static/media/crud.c334e562ad8c03d238e5.png",
     "static/media/eccomerce_react.png": "/Jose-Moya/static/media/eccomerce_react.4379605be33b2556e55e.png",
     "static/media/proverbios.png": "/Jose-Moya/static/media/proverbios.260ecf673842b7baea7d.png",
     "static/media/instaclon.png": "/Jose-Moya/static/media/instaclon.15d43d16966054f1bc41.png",
-    "static/media/logo.png": "/Jose-Moya/static/media/logo.7b0ae62a2342cd329968.png",
     "static/media/CV.pdf": "/Jose-Moya/static/media/CV.a8a96d1ef795a14ebb72.pdf",
     "static/media/react.png": "/Jose-Moya/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/profile.jpeg": "/Jose-Moya/static/media/profile.e8dd2f68e9fabb59c263.jpeg",
-    "static/media/github.png": "/Jose-Moya/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/github1.png": "/Jose-Moya/static/media/github1.553c66159c5672f25df6.png",
     "static/media/html.png": "/Jose-Moya/static/media/html.2ba4fabc69a89a8f71e6.png",
     "static/media/tailwind.png": "/Jose-Moya/static/media/tailwind.e47ac876b8d4d0bba47a.png",
     "static/media/css.png": "/Jose-Moya/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/Jose-Moya/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/Jose-Moya/index.html",
-    "main.90a45310.css.map": "/Jose-Moya/static/css/main.90a45310.css.map",
-    "main.0f835f62.js.map": "/Jose-Moya/static/js/main.0f835f62.js.map"
+    "main.5a7f1389.css.map": "/Jose-Moya/static/css/main.5a7f1389.css.map",
+    "main.0058d563.js.map": "/Jose-Moya/static/js/main.0058d563.js.map"
   },
   "entrypoints": [
-    "static/css/main.90a45310.css",
-    "static/js/main.0f835f62.js"
+    "static/css/main.5a7f1389.css",
+    "static/js/main.0058d563.js"
   ]
 }
