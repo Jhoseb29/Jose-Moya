@@ -3,7 +3,7 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 import { useState, useEffect } from "react";
 import 'animate.css'
-import IMG from "../assets/profile1.jpg";
+import IMG from "../assets/profile.jpeg";
 import {useTheme} from "../context/ThemeProvider";
 const Home = () => {
   const [loopNum, setLoopNum] = useState(0);
