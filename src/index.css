@@ -11,3 +11,14 @@
     font-family: 'Raleway', sans-serif;
   }
 }
+
+::-webkit-scrollbar {
+  width: .6rem;
+  background: hsl(0, 0%, 74%);
+
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(219, 82%, 47%);
+  border-radius: 100px;
+}
