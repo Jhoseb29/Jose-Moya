@@ -1,8 +1,7 @@
 {
   "files": {
     "main.css": "/Jose-Moya/static/css/main.d609b3a8.css",
-    "main.js": "/Jose-Moya/static/js/main.f09e6f30.js",
-    "static/media/profile1.jpg": "/Jose-Moya/static/media/profile1.669c8d0470ad77132cd1.jpg",
+    "main.js": "/Jose-Moya/static/js/main.044134a3.js",
     "static/media/RickAndMortyApp.png": "/Jose-Moya/static/media/RickAndMortyApp.9ab6b4b940a4c84fc4bd.png",
     "static/media/WeatherApp.png": "/Jose-Moya/static/media/WeatherApp.dfd6d8b87e181a03419b.png",
     "static/media/InstaClon.png": "/Jose-Moya/static/media/InstaClon.5026145cb93e2e430f3e.png",
@@ -11,6 +10,7 @@
     "static/media/PharseMachine.png": "/Jose-Moya/static/media/PharseMachine.b15ed9eca831275bf716.png",
     "static/media/CV.pdf": "/Jose-Moya/static/media/CV.844d2a0fe8848cb7c1e8.pdf",
     "static/media/react.png": "/Jose-Moya/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/profile.jpeg": "/Jose-Moya/static/media/profile.e8dd2f68e9fabb59c263.jpeg",
     "static/media/github1.png": "/Jose-Moya/static/media/github1.553c66159c5672f25df6.png",
     "static/media/html.png": "/Jose-Moya/static/media/html.2ba4fabc69a89a8f71e6.png",
     "static/media/tailwind.png": "/Jose-Moya/static/media/tailwind.e47ac876b8d4d0bba47a.png",
@@ -19,10 +19,10 @@
     "static/media/javascript.png": "/Jose-Moya/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/Jose-Moya/index.html",
     "main.d609b3a8.css.map": "/Jose-Moya/static/css/main.d609b3a8.css.map",
-    "main.f09e6f30.js.map": "/Jose-Moya/static/js/main.f09e6f30.js.map"
+    "main.044134a3.js.map": "/Jose-Moya/static/js/main.044134a3.js.map"
   },
   "entrypoints": [
     "static/css/main.d609b3a8.css",
-    "static/js/main.f09e6f30.js"
+    "static/js/main.044134a3.js"
   ]
 }
