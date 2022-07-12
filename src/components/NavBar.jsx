@@ -66,9 +66,9 @@ const NavBar = () => {
               className="group text-white w-fit px-2 py-2 my-2  flex justify-center items-center  flex rounded-full bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer fixed bottom-12 right-5"
             >
               
-              <span className="group-hover:rotate-45 duration-300">
+              <p className="group-hover:rotate-45 duration-300">
                 <MdOutlineKeyboardArrowUp size={25} className="flex justify-center items-center" />
-              </span>
+              </p>
             </Link>
           </div>
 

@@ -30,9 +30,9 @@ function App() {
     
     <ThemeProvider>
     <div>
+      <AnimCursor />
       {isLoading ? (<Loader />) : (
       <div>
-        <AnimCursor />
         <NavBar />
         <Home />
         <About />

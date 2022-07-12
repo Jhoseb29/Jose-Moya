@@ -60,7 +60,6 @@ const Home = () => {
            <div>
                 <h1 className= "text-4xl sm:text-7xl font-bold ">{`Hi! I'm 
                 Jose Moya`} <span className="txt-rotate" data-period="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer"]'><span className="wrap">{text}</span></span></h1>
-                  <p className="text-gray-500 py-4 max-w-md">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
               </div>
           <div>
             
@@ -82,7 +81,7 @@ const Home = () => {
           <img
             src={IMG}
             alt="my profile"
-            className="rounded-md mx-auto w-2/3 md:w-full"
+            className="rounded-md mx-auto w-2/3 md:w-full pb-8"
           />
         </div>
       </div>
