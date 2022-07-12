@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Jose-Moya/static/css/main.718a6dc2.css",
+    "main.css": "/Jose-Moya/static/css/main.b661a30d.css",
     "main.js": "/Jose-Moya/static/js/main.b32479ee.js",
     "static/media/RickAndMortyApp.png": "/Jose-Moya/static/media/RickAndMortyApp.9ab6b4b940a4c84fc4bd.png",
     "static/media/WeatherApp.png": "/Jose-Moya/static/media/WeatherApp.dfd6d8b87e181a03419b.png",
@@ -18,11 +18,11 @@
     "static/media/Mars.ttf": "/Jose-Moya/static/media/Mars.e8591d4c7817fc88bb9b.ttf",
     "static/media/javascript.png": "/Jose-Moya/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/Jose-Moya/index.html",
-    "main.718a6dc2.css.map": "/Jose-Moya/static/css/main.718a6dc2.css.map",
+    "main.b661a30d.css.map": "/Jose-Moya/static/css/main.b661a30d.css.map",
     "main.b32479ee.js.map": "/Jose-Moya/static/js/main.b32479ee.js.map"
   },
   "entrypoints": [
-    "static/css/main.718a6dc2.css",
+    "static/css/main.b661a30d.css",
     "static/js/main.b32479ee.js"
   ]
 }
