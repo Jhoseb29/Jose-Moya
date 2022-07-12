@@ -28,7 +28,7 @@ const SocialLinks = () => {
       href: "https://github.com/Jhoseb29",
     },
     {
-      id: 4,
+      id: 3,
       child: (
         <>
           CV <BsFillPersonLinesFill size={30} />

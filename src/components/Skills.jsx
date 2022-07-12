@@ -75,7 +75,7 @@ const Skills = () => {
   return (
     <div
       name="skills"
-      className="w-full  pb-66"
+      className="w-full  pt-56"
       style={{ backgroundColor: theme.azul, color: theme.hehe }}
     >
       <div className="max-w-screen-lg mx-auto p-4  flex flex-col justify-center w-full h-full ">
@@ -90,7 +90,7 @@ const Skills = () => {
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}
-              className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
+              className={`shadow-md hover:scale-105 duration-100 py-2 rounded-lg ${style}`}
             >
               <img src={src} alt="" className="w-20 mx-auto" />
               <p className="mt-4">{title}</p>

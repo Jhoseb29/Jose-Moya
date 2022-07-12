@@ -58,7 +58,7 @@ const Portfolio = () => {
   return (
     <div
       name="portfolio"
-      className="bg-gradient-to-b w-full portfolio pb-96 md:h-screen"
+      className="bg-gradient-to-b w-full portfolio pb-28 md:h-screen"
       style={{ backgroundColor: theme.azul, color: theme.hehe }}
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
@@ -69,7 +69,7 @@ const Portfolio = () => {
           <p className="py-6">Check out some of my work right here</p>
         </div>
 
-        <div className=" grid sm:grid-cols-2 p-7 md:grid-cols-3 gap-8 sm:px-0">
+        <div className=" grid sm:grid-cols-2 md:grid-cols-3  gap-10 sm:px-0">
           {portfolios.map(({ id, src, demo, code }) => (
             <div key={id} className="card shadow-md shadow-gray-600 rounded-lg  ">
               <img
@@ -80,7 +80,7 @@ const Portfolio = () => {
               <div className="flex items-center justify-center">
                 <a
                   href={demo}
-                  className="w-1/2 px-9 py-3 m-4  cursor: pointer btn"
+                  className=" py-3 m-4  cursor: pointer btn"
                   target="_blank"
                 >
                   
@@ -92,7 +92,7 @@ const Portfolio = () => {
                 </a>
                 <a
                   href={code}
-                  className="w-1/2 px-9 py-3 m-4  cursor: pointer btn"
+                  className=" py-3 m-4  cursor: pointer btn"
                   target="_blank"
                 >
                   <span></span>

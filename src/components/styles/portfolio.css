@@ -1,6 +1,5 @@
 .portfolio a {
   position: relative;
-  padding: 1em 1.8em;
   outline: none;
   border: 1px solid #303030;
   background: #212121;
@@ -14,18 +13,20 @@
   cursor: pointer;
   font-weight: bold;
   text-align: center;
+  padding: 10px;
+  
 }
 
-a:hover {
+.portfolio a:hover {
   box-shadow: 0 0 10px #1D27E1, 0 0 25px #001eff, 0 0 50px #1D27E1;
   transition-delay: 0.6s;
 }
 
-a span {
+.portfolio a span {
   position: absolute;
 }
 
-a span:nth-child(1) {
+.portfolio a span:nth-child(1) {
   top: 0;
   left: -100%;
   width: 100%;
@@ -33,12 +34,12 @@ a span:nth-child(1) {
   background: linear-gradient(90deg, transparent, #ae00ff);
 }
 
-a:hover span:nth-child(1) {
+.portfolio a:hover span:nth-child(1) {
   left: 100%;
   transition: 0.7s;
 }
 
-a span:nth-child(3) {
+.portfolio a span:nth-child(3) {
   bottom: 0;
   right: -100%;
   width: 100%;
@@ -46,13 +47,13 @@ a span:nth-child(3) {
   background: linear-gradient(90deg, transparent, #001eff);
 }
 
-a:hover span:nth-child(3) {
+.portfolio a:hover span:nth-child(3) {
   right: 100%;
   transition: 0.7s;
   transition-delay: 0.35s;
 }
-
-a span:nth-child(2) {
+ 
+.portfolio a span:nth-child(2) {
   top: -100%;
   right: 0;
   width: 2px;
@@ -60,13 +61,13 @@ a span:nth-child(2) {
   background: linear-gradient(180deg, transparent, #ae00ff);
 }
 
-a:hover span:nth-child(2) {
+.portfolio a:hover span:nth-child(2) {
   top: 100%;
   transition: 0.7s;
   transition-delay: 0.17s;
 }
 
-a span:nth-child(4) {
+.portfolio a span:nth-child(4) {
   bottom: -100%;
   left: 0;
   width: 2px;
@@ -74,13 +75,13 @@ a span:nth-child(4) {
   background: linear-gradient(360deg, transparent, #001eff);
 }
 
-a:hover span:nth-child(4) {
+.portfolio a:hover span:nth-child(4) {
   bottom: 100%;
   transition: 0.7s;
   transition-delay: 0.52s;
 }
 
-a:active {
+.portfolio a:active {
   background: #ae00af;
   background: linear-gradient(to top right, #ae00af, #001eff);
   color: #bfbfbf;
@@ -88,7 +89,7 @@ a:active {
   transition: 0.1s;
 }
 
-a:active
+.portfolio a:active
   span:nth-child(1)
   span:nth-child(2)
   span:nth-child(2)
@@ -100,11 +101,11 @@ a:active
 /*======================== Cards =====================*/
 
 .card {
-    width: 300px;
+    width: 320px;
     height: 430px;
 }
 
 .img {
-    width: 300px;
+    width: 320px;
     height: 350px;
 }

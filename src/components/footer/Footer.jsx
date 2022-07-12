@@ -19,16 +19,16 @@ const Footer = () => {
         </div>
         <ul className="social_icon">
           <li>
-            <a href="https://github.com/Jhoseb29">
+            <p href="https://github.com/Jhoseb29">
               
               <FaGithub />
-            </a>
+            </p>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/jhoseb29/">
+            <p href="https://www.linkedin.com/in/jhoseb29/">
               
               <FaLinkedin />
-            </a>
+            </p>
           </li>
         </ul>
         <p>@2022 Jose Moya | All Rights Reserved</p>

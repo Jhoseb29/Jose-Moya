@@ -23,13 +23,13 @@ footer .social_icon li {
   list-style: none;
 }
 
-footer .social_icon li a {
+footer .social_icon li p {
   font-size: 2em;
   margin: 010px;
   display: inline-block;
   transition: 0.1s;
 }
-footer .social_icon li a:hover {
+footer .social_icon li p:hover {
   transform: translateY(-10px);
 }
 
@@ -50,7 +50,6 @@ footer .wave#wave1 {
   animation: animateWave 4s linear infinite;
 }
 
-
 footer .wave#wave2 {
   z-index: 999;
   opacity: 0.5;
@@ -59,21 +58,18 @@ footer .wave#wave2 {
 }
 
 footer .wave#wave3 {
-    z-index: 1000;
-    opacity: 0.2;
-    bottom: 15px;
-    animation: animateWave 3s linear infinite;
-  }
-  
-  
-  footer .wave#wave4 {
-    z-index: 999;
-    opacity: 0.7;
-    bottom: 20px;
-    animation: animateWave_02 3s linear infinite;
-  }
+  z-index: 1000;
+  opacity: 0.2;
+  bottom: 15px;
+  animation: animateWave 3s linear infinite;
+}
 
-
+footer .wave#wave4 {
+  z-index: 999;
+  opacity: 0.7;
+  bottom: 20px;
+  animation: animateWave_02 3s linear infinite;
+}
 
 @keyframes animateWave {
   0% {
@@ -85,10 +81,10 @@ footer .wave#wave3 {
 }
 
 @keyframes animateWave_02 {
-    0% {
-      background-position-x: 1000px;
-    }
-    100% {
-      background-position-x: 0px;
-    }
+  0% {
+    background-position-x: 1000px;
   }
+  100% {
+    background-position-x: 0px;
+  }
+}
