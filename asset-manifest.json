@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Jose-Moya/static/css/main.9c6967f6.css",
-    "main.js": "/Jose-Moya/static/js/main.e4140c5c.js",
+    "main.css": "/Jose-Moya/static/css/main.a044f70a.css",
+    "main.js": "/Jose-Moya/static/js/main.dffeb99c.js",
     "static/media/RickAndMortyApp.png": "/Jose-Moya/static/media/RickAndMortyApp.9ab6b4b940a4c84fc4bd.png",
     "static/media/WeatherApp.png": "/Jose-Moya/static/media/WeatherApp.dfd6d8b87e181a03419b.png",
     "static/media/InstaClon.png": "/Jose-Moya/static/media/InstaClon.5026145cb93e2e430f3e.png",
@@ -18,11 +18,11 @@
     "static/media/Mars.ttf": "/Jose-Moya/static/media/Mars.e8591d4c7817fc88bb9b.ttf",
     "static/media/javascript.png": "/Jose-Moya/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/Jose-Moya/index.html",
-    "main.9c6967f6.css.map": "/Jose-Moya/static/css/main.9c6967f6.css.map",
-    "main.e4140c5c.js.map": "/Jose-Moya/static/js/main.e4140c5c.js.map"
+    "main.a044f70a.css.map": "/Jose-Moya/static/css/main.a044f70a.css.map",
+    "main.dffeb99c.js.map": "/Jose-Moya/static/js/main.dffeb99c.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c6967f6.css",
-    "static/js/main.e4140c5c.js"
+    "static/css/main.a044f70a.css",
+    "static/js/main.dffeb99c.js"
   ]
 }
