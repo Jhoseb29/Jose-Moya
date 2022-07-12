@@ -7,6 +7,7 @@ const Footer = () => {
 
   return (
     <div
+    className="w-full h-64"
       name="footer"
       style={{ backgroundColor: theme.background, color: theme.textColor }}
     >

@@ -9,7 +9,7 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full h-screen  p-4"
+      className="w-full h-screen pt-36 p-4"
       style={{ backgroundColor: theme.background, color: theme.textColor }}
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
