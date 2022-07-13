@@ -36,13 +36,13 @@ const NavBar = () => {
   ];
 
   return (
-    <div className="flex justify-between items-center relative w-full h-20 px-4 " style={{ backgroundColor: theme.background, color: theme.textColor }}>
-      <div onClick={() => toggleTheme(!setMode)} className="fixed right-4 top-8 cursor-pointer pr-4 z-10  hover:scale-105 duration-200">
-           <BsMoonStarsFill />
+    <div name='nav' className="flex justify-between items-center relative w-full h-20 px-4 " style={{ backgroundColor: theme.background, color: theme.textColor }}>
+      <div onClick={() => toggleTheme(!setMode)} className="relative   cursor-pointer pr-4 z-10  hover:scale-105 duration-200">
+           {mode ? <BsSun/> : <BsMoonStarsFill />}
         </div>
 
 
-      <ul className="hidden md:flex absolute left-2/4">
+      <ul className="hidden md:flex absolute right-0">
         
         {links.map(({ id, link }) => (
           <li
@@ -60,13 +60,13 @@ const NavBar = () => {
       <div>
             
             <Link
-              to="home"
+              to="nav"
               smooth
               duration={500}
               className="group text-white w-fit px-2 py-2 my-2  flex justify-center items-center  flex rounded-full bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer fixed bottom-12 right-5"
             >
               
-              <p className="group-hover:rotate-45 duration-300">
+              <p className=" group-hover:rotate-45 duration-300">
                 <MdOutlineKeyboardArrowUp size={25} className="flex justify-center items-center" />
               </p>
             </Link>
@@ -75,7 +75,7 @@ const NavBar = () => {
       <div className="">
       <div
         onClick={() => setNav(!nav)}
-        className="cursor-pointer pr-4 z-10 fixed  md:hidden hover:scale-105 duration-200 absolute left-12"
+        className="cursor-pointer pr-4 z-10  md:hidden hover:scale-105 duration-200 absolute right-0 bottom-6"
       >
         {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
       </div>

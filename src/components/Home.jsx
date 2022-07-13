@@ -13,7 +13,7 @@ const Home = () => {
   const [index, setIndex] = useState();
   const toRotate = [ "Web Developer", "Front-end Developer", "Back-end Developer" ];
   const period = 1000;
-  const { theme, toggleTheme } = useTheme();
+  const { theme } = useTheme();
 
   
 
@@ -36,7 +36,7 @@ const Home = () => {
       setIsDeleting(false);
       setLoopNum(loopNum + 1);
       setIndex(1);
-      setDelta(50);
+      setDelta(300);
     } else {
       setIndex(prevIndex => prevIndex + 1);
     }
@@ -81,7 +81,7 @@ const Home = () => {
           <img
             src={IMG}
             alt="my profile"
-            className="rounded-md mx-auto w-2/3 md:w-full pb-8"
+            className="rounded-md  pb-8 "
           />
         </div>
       </div>

@@ -8,7 +8,7 @@ import instaclon from "../assets/portfolio/WeatherApp.png";
 import { useTheme } from "../context/ThemeProvider";
 import './styles/portfolio.css';
 const Portfolio = () => {
-  const { theme, toggleTheme } = useTheme();
+  const { theme } = useTheme();
 
   const portfolios = [
     {

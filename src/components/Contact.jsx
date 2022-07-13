@@ -4,7 +4,7 @@ import {useTheme} from "../context/ThemeProvider";
 
 const Contact = () => {
 
-  const { theme, toggleTheme } = useTheme();
+  const { theme } = useTheme();
 
   return (
     <div

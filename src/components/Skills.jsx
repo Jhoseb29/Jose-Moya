@@ -13,7 +13,7 @@ import {useTheme} from "../context/ThemeProvider";
 
 
 const Skills = () => {
-  const { theme, toggleTheme } = useTheme();
+  const { theme } = useTheme();
 
   const techs = [
     {
